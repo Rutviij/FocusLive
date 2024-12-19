@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Focus Tracker</h1>
+    <div id="stats">
+      <h2>Today's Stats</h2>
+      <ul id="usage-list"></ul>
+    </div>
+    <div id="motivation">
+      <h2>Motivational Quote</h2>
+      <p id="quote">"Stay focused and keep pushing forward."</p>
+    </div>
+    <button id="refresh">New Quote</button>
+    <div id="settings">
+      <h3>Settings</h3>
+      <label for="productive-sites">Add Productive Sites (comma-separated):</label>
+      <input type="text" id="productive-sites" placeholder="e.g., docs.google.com, stackoverflow.com" />
+      <button id="save-settings">Save</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
