@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.container {
+  width: 300px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+#stats, #motivation, #settings {
+  margin-bottom: 20px;
+}
+
+#usage-list {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
